@@ -1,0 +1,417 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.swiggy{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+}
+.zero{
+    height: 75%;
+    width: 55%;
+    border-top: .1px black solid;
+}
+.logo{
+    height: 20%;
+    width: 100%;
+    margin-top: 5%;
+    background-color: white;
+}
+.logo img{
+    height: 60px;
+    margin-top: 25px;
+    margin-left: 150px;
+}
+#logobton{
+    position: absolute;
+    left: 37%;
+    bottom: 83%;
+}
+#logobton button{
+    font-size: 15px;
+    font-weight: 600;
+    padding: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 28px;
+    padding-right: 28px;
+}
+#btn1{
+    background-color: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+
+}
+#btn2{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.two{
+    margin-left: 18%;
+    margin-top: 5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.two h1{
+    font-size: 40px;
+    font-weight: 400;
+}
+.two h2{
+    font-size: 21px;
+    font-weight: 200;
+    margin-top: 1%;
+}
+#sarch{
+    height: 12%;
+    width: 100%;
+}
+form{
+    margin-left: 18%;
+    margin-top: 5%;
+}
+input[type=search]{
+    width: 55%;
+    height: 59px;
+    padding-left: 3%;
+    font-size: 18px
+}
+#sarch img{
+    height: 18px;
+    position: absolute;
+    left: 35%;
+    top: 46.7%;
+}
+#sarch h3{
+    position: absolute;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 200;
+    left: 36.5%;
+    top: 46.5%;
+}
+#sarch button{
+    cursor: pointer;
+    position: absolute;
+    left: 43.4%;
+    top: 44.1%;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    background-color: rgb(252, 128, 25);
+    color: white;
+    border: none;
+}
+.city{
+    margin-top: 25px;
+    margin-left: 17.5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+
+}
+.city h2{
+    font-size: 15px;
+    font-weight: 100;
+    
+}
+.city h3{
+    font-size: 15px;
+    margin-top: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.one{
+    width: 45%;
+    height: 75%;
+    background-color: blue;
+    position: absolute;
+    left: 55%;
+    bottom: 25%;
+    background: url(https://i.gadgets360cdn.com/large/swiggy_food_app_1493725122164.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+}
+.next{
+    height: 55vh;
+    width: 100%;
+    background-color: rgb(124, 41, 41);
+    
+}
+#ast{
+    height: 250px;
+    /* background-color: black; */
+    position: absolute;
+    left: 15%;
+
+    
+    
+}
+#bst{
+    height:250px;
+    /* background-color: blue; */
+    position: absolute;
+    left: 45%;
+}
+#cst{
+    height: 250px;
+    /* background-color: brown; */
+    position: absolute;
+    left: 75%;
+
+}
+#nexta,#nextb,#nextc{
+    position: absolute;
+    top: 115%;
+    font-size: 22px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#nextc{
+    left: 73%;
+}
+#nextb{
+    left: 42.5%;
+}
+#nexta{
+    left: 12%;
+}
+#nextd,#nexte,#nextf{
+    position: absolute;
+    top: 120%;
+    color: rgba(201, 211, 211, 0.861);
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 200;
+}
+#nextd{
+    left: 11%;
+}
+#nexte{
+    left: 42%;
+}
+#nextf{
+    left: 73%;
+}
+.app{
+    height: 85%;
+    width: 100%;
+    /* background-color: red; */
+    position: relative;
+}
+#fistimg{
+    height: 500px;
+    position: absolute;
+    left: 40%;
+}
+#secndimg{
+    height: 500px;
+    position: absolute;
+    bottom: 0;
+    left: 65%;
+
+}
+.app h1{
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(15, 35, 72);
+    
+}
+.app h3{
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 200;
+    margin-top: 20px;
+    color: rgb(51, 38, 38);
+    
+}
+#appa{
+    position: absolute;
+    left: 8%;
+    top: 32%;
+}
+.appb{
+    height: 60px;
+    margin-top: 80px;
+}
+.apple{
+    margin-left: 20px;
+}
+.last{
+    height: 70%;
+    width: 100%;
+    background-color: black;
+    position: relative;
+}
+#onea{
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+}
+.last dt{
+    margin-top: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 200;
+}
+#dta{
+    font-size: 20px;
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    bottom: 105%;
+    color: rgb(86, 85, 91);
+}
+#oneb{
+    color: white;
+    position: absolute;
+    top: 22%;
+    left: 10%;
+    margin-left: 20%;
+}
+#one dt{
+    margin-top: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 200;
+}
+#dtb{
+    font-size: 20px;
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    bottom: 105%;
+    color: rgb(86, 85, 91);
+}
+#onec{
+    color: white;
+    position: absolute;
+    top: 24%;
+    left: 10%;
+    margin-left: 40%;
+}
+#onec dt{
+    margin-top: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 200;
+}
+#dtc{
+    font-size: 20px;
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    bottom: 105%;
+    color: rgb(86, 85, 91);
+}
+.lastimga{
+    position: absolute;
+    top: 15%;
+    right: 10%;
+
+}
+.lastimgcd{
+    top: 35%;
+}
+#line{
+    height: .01%;
+    width: 80%;
+    background-color: rgb(78, 75, 75);
+    margin-left: 10%;
+}
+.citya{
+    height: 372%;
+    width: 100%;
+    background-color: black;
+    position: relative;
+}
+#cityalast{
+    margin-top: 2.5%;
+    margin-left: 10%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.citya h3{
+    font-size: 15px;
+    color: rgb(68, 64, 64);
+}
+#cityline{
+    color: white;
+    margin-top: 2%;
+}
+.citya dt{
+    margin-top: 1%;
+}
+#citylineb{
+    color: white;
+    position: absolute;
+    bottom: 5.5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 33%;
+    /* background-color: red; */
+}
+#citylineb dt{
+    margin-top: 9%;
+}
+#citylinec{
+    color: white;
+    position: absolute;
+    bottom: 5.5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 58%;
+    /* background-color: red; */
+}
+#citylinec dt{
+    margin-top: 9%;
+}
+#citylined{
+    color: white;
+    position: absolute;
+    bottom: 5.5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 80%;
+}
+#citylined dt{
+    margin-top: 9%;
+}
+#lineb{
+    margin-top: 2.5%;
+    height: .01%;
+    width: 80%;
+    background-color: rgb(78, 75, 75);
+    margin-left: 10%;
+}
+#zero{
+    height: 45px;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+#one{
+    margin-left: 23%;
+    margin-bottom: 0.5%;
+}
+#logod h3{
+    color: white;
+    margin-left: 45%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    position: absolute;
+    bottom: 1.8%;
+}
+#lastimg{
+    margin-left: 77%;
+    position: absolute;
+    bottom: 1.7%;
+    width: 20%;
+}
+#two,#three,#four,#five{
+    margin-left: 8%;
+}
